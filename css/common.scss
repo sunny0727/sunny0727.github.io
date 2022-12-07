@@ -48,7 +48,7 @@ $color_btn1_hover: #313131;
 @mixin line_default{content: ''; background-color: #fff; border-radius: vw(50px);}
 @mixin nth_margin($val){
 	&:nth-child(#{$val}n-#{$val+-1}){margin-left: 0; clear: both;}
-	&:nth-child(n):nth-child(-n+#{$val}){margin-top: 0;}
+	&:nth-child(n):nth-child(-n+#{$vfontsal}){margin-top: 0;}
 }
 
 @keyframes txt_hover{
@@ -64,34 +64,34 @@ $color_btn1_hover: #313131;
 	font-family: 'GmarketSans';
 	font-style: normal;
 	font-weight: 100;
-	src: url('/fonts/GmarketSansLight.eot'); /* IE 호환성 보기 */  
+	src: url('fonts/GmarketSansLight.eot'); /* IE 호환성 보기 */  
 	src: local(※),
-		 url('/fonts/GmarketSansLight.eot#iefix') format('embedded-opentype'), /* IE 6 ~ 8 */
-		 /*url('/fonts/GmarketSansLight.woff2') format('woff2'),*/
-		 url('/fonts/GmarketSansLight.woff') format('woff'),
-		 url('/fonts/GmarketSansLight.ttf') format('truetype');
+		 url('fonts/GmarketSansLight.eot#iefix') format('embedded-opentype'), /* IE 6 ~ 8 */
+		 /*url('fonts/GmarketSansLight.woff2') format('woff2'),*/
+		 url('fonts/GmarketSansLight.woff') format('woff'),
+		 url('fonts/GmarketSansLight.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'GmarketSans';
 	font-style: normal;
 	font-weight: 300;
-	src: url('/fonts/GmarketSansMedium.eot'); /* IE 호환성 보기 */
+	src: url('fonts/GmarketSansMedium.eot'); /* IE 호환성 보기 */
 	src: local(※),
-		 url('/fonts/GmarketSansMedium.eot#iefix') format('embedded-opentype'), /* IE 6 ~ 8 */
-		 /*url('/fonts/GmarketSansMedium.woff2') format('woff2'),*/
-		 url('/fonts/GmarketSansMedium.woff') format('woff'),
-		 url('/fonts/GmarketSansMedium.ttf') format('truetype');
+		 url('fonts/GmarketSansMedium.eot#iefix') format('embedded-opentype'), /* IE 6 ~ 8 */
+		 /*url('fonts/GmarketSansMedium.woff2') format('woff2'),*/
+		 url('fonts/GmarketSansMedium.woff') format('woff'),
+		 url('fonts/GmarketSansMedium.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'GmarketSans';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/fonts/GmarketSansBold.eot'); /* IE 호환성 보기 */
+	src: url('fonts/GmarketSansBold.eot'); /* IE 호환성 보기 */
 	src: local(※),
-		 url('/fonts/GmarketSansBold.eot#iefix') format('embedded-opentype'),/* IE 6 ~ 8 */
-	     /*url('/fonts/GmarketSansBold.woff2') format('woff2'),*/
-         url('/fonts/GmarketSansBold.woff') format('woff'),
-		 url('/fonts/GmarketSansBold.ttf') format('truetype');
+		 url('fonts/GmarketSansBold.eot#iefix') format('embedded-opentype'),/* IE 6 ~ 8 */
+	     /*url('fonts/GmarketSansBold.woff2') format('woff2'),*/
+         url('fonts/GmarketSansBold.woff') format('woff'),
+		 url('fonts/GmarketSansBold.ttf') format('truetype');
 }
 
 br{font-family:"MalgunGothic","Dotum", "돋움", "Gulim", "굴림";}
